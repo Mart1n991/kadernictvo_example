@@ -1,0 +1,16 @@
+.banner {
+  background: url(../../assets/think-act-speak-bg-lg.png);
+  height: 25rem;
+}
+
+.banner-container {
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container img {
+  max-width: 100%;
+  padding: 0 30px;
+}
