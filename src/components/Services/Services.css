@@ -1,0 +1,34 @@
+.service-text-container span,
+.service-text-container h2,
+.service-description-container a {
+  text-transform: uppercase;
+}
+
+.service-text-container {
+  position: relative;
+}
+
+.service-text-container h2 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.service-text-container span {
+  color: #bb2d3b;
+  font-weight: 500;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 10rem;
+  top: -0.5rem;
+}
+
+.service-description-container {
+  margin-top: 3rem;
+  padding: 0 2rem;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+.service-description-container a {
+  color: #bb2d3b;
+}
