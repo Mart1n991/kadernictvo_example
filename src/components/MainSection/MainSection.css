@@ -1,0 +1,26 @@
+.mainSection {
+  background-image: url(../../assets/landing-bg-lg.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.title-main-container {
+  margin-top: 3rem;
+}
+
+.title-main {
+  text-align: center;
+  color: #e6e6e6;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
