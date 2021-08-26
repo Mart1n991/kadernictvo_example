@@ -24,9 +24,9 @@ export default function Services() {
                         </div>
                     </Col>
                     <Col xs={12} md={3}>
-                        <img src={shaving}></img>
+                        <img src={shaving} className="mt-3"></img>
                     </Col>
-                    <Col xs={12} md={3}>
+                    <Col xs={12} md={3} className="mt-3">
                         <img src={scissors}/>
                     </Col>
                 </Row>

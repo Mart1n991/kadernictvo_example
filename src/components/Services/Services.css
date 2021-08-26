@@ -4,13 +4,13 @@
   text-transform: uppercase;
 }
 
-.service-text-container {
-  position: relative;
-}
-
 .service-text-container h2 {
   font-size: 5rem;
   font-weight: 600;
+}
+
+.service-text-container {
+  position: relative;
 }
 
 .service-text-container span {
@@ -18,8 +18,8 @@
   font-weight: 500;
   font-size: 1.5rem;
   position: absolute;
-  left: 10rem;
-  top: -0.5rem;
+  left: 150px;
+  top: -10px;
 }
 
 .service-description-container {
@@ -31,4 +31,27 @@
 
 .service-description-container a {
   color: #bb2d3b;
+}
+
+@media screen and (max-width: 1000px) {
+  .service-text-container span {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-text-container span {
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .service-text-container span {
+    left: 20px;
+    font-size: 1rem;
+  }
+
+  .service-text-container h2 {
+    font-size: 3.5rem;
+  }
 }
